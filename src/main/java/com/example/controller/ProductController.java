@@ -1,10 +1,13 @@
-package com.example.demo;
+package com.example.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.pojo.Product;
+import com.example.service.ProductService;
 
 import java.util.List;
 

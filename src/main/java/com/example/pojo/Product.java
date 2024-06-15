@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.pojo;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

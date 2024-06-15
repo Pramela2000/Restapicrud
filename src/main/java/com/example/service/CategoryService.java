@@ -1,7 +1,10 @@
-package com.example.demo;
+package com.example.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.Repository.CategoryRepository;
+import com.example.pojo.Category;
 
 import java.util.List;
 

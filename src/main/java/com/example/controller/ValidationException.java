@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.controller;
 
 import org.springframework.validation.FieldError;
 import java.util.List;

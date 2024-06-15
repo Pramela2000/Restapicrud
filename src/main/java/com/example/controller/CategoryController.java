@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -6,6 +6,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.pojo.Category;
+import com.example.service.CategoryService;
 
 import java.util.List;
 
@@ -16,7 +19,7 @@ public class CategoryController {
     @Autowired
     private CategoryService categoryService;
 
-    @GetMapping
+    @GetMapping("/cat")
     public List<Category> getAllCategories() {
         return categoryService.getAllCategories();
     }
